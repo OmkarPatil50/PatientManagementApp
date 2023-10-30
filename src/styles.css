@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,400;0,500;0,600;0,800;1,100&display=swap");
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #fff;
+  --grey-color: #1f2937;
+  --black-color: #282828;
+  --white-color: #fff;
+  --lynx-white-color: #f7f7f7;
+  --violet-color: #5348c7;
+  --lynx-gray-color: #c5c5c5;
+  --font: "Urbanist", sans-serif;
+  --xxl-size: 4rem;
+  --xl-size: 2.5rem;
+  --l-size: 2rem;
+  --m-size: 1.5rem;
+  --s-size: 1rem;
+  --xs-size: 0.5rem;
+  --xl-font: 3rem;
+  --light-weight: 300;
+  --regular-weight: 400;
+  --semibold-weight: 600;
+  --bold-weight: 700;
+  --black-weight: 900;
+}
+
+* {
+  box-sizing: border-box;
+  font-weight: 500;
+}
+html {
+  background-color: var(--lynx-white-color);
+}
+
+.App {
+  font-family: var(--font);
+  letter-spacing: 1px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}

@@ -1,0 +1,51 @@
+.ward-card {
+  width: 200px;
+  height: 170px;
+  padding: 20px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e5e5e5;
+  color: var(--action-color);
+  margin: 0 15px 15px 0;
+  text-align: center;
+}
+
+.ward-card-header {
+  text-align: center;
+}
+
+.ward-title {
+  width: 100%;
+  height: 30px;
+  overflow: auto;
+  font-size: 24px;
+  line-height: 1;
+  margin: 0 0 10px;
+}
+
+.ward-date {
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+}
+
+.ward-card-details-section {
+  width: 100%;
+  margin: 0px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-section-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.less-height-card {
+  height: 140px;
+}
